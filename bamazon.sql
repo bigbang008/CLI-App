@@ -12,3 +12,5 @@ CREATE TABLE products (
 	stock_quantity int,
     primary key (item_id)
 );
+
+ALTER TABLE products AUTO_INCREMENT = 100;
