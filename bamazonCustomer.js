@@ -119,6 +119,8 @@ function askingPurchase() {
             );
         } else {
             console.log(chalk.bold.red("Sorry, Insufficient quantity!!"));
+            console.log("TRY AGIAN...");
+            askingPurchase();
         }
     });
 
