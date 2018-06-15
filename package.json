@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/bigbang008/CLI-App#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
     "cli-table": "^0.3.1",
+    "console.table": "^0.10.0",
+    "figlet": "^1.2.0",
     "inquirer": "^6.0.0",
     "mysql": "^2.15.0"
   }
